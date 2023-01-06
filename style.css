@@ -243,3 +243,33 @@ center .button2{
 
 
 /*--------------- End of Section 2 --------------*/
+
+footer{
+    border-top:3px solid grey;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color:white;
+    background-color: black;
+}
+.main-footer .social-media{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-paragraph span{
+    text-transform: uppercase;
+}
+.footer-paragraph p{
+    font-size: 20px;
+}
+.social-media div{
+    background-color: white;
+    padding: 10px 12px;
+    margin:10px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+/*------------ End of Footer -----------------*/
