@@ -99,3 +99,126 @@ width:50%;
     font-size: 24px;
     font-family: monospace;
 }
+
+
+/*---------------- Section 1 --------------*/
+.section1{
+    width: 98.9vw;
+    height: 400px;
+    background-color: #CDCDCD;
+    box-shadow: 3px 3px 20px 5px  rgb(0, 0, 0, 1);
+}
+.section1 .first-div{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.first-div .div1-content{
+    width: 25%;
+    text-align: center;
+}
+.section1 .first-div .icon1{
+    font-size: 40px;
+    color:black;
+    padding-bottom:10px;
+}
+.first-div .div1-content h1{
+    font-size:30px;
+    color: black;
+
+}
+.div1-content p{
+    font-size: 22px;
+    color:white;
+    font-family:'candara';
+}
+.section1 .second-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+}
+.section1 .second-div .div2-content{
+    width: 40%;
+}
+.section1 .second-div .icon2{
+    font-size: 40px;
+    color:black;
+    padding-left:80px;
+    padding-bottom:10px
+}
+.second-div .div2-content h1{
+    text-align: center;
+}
+.div2-content p{
+    font-size: 22px;
+    color:white;
+    font-family:'candara';
+    text-align: center;
+}
+
+.container1{
+    margin:0px 20%;
+}
+.container2{
+    margin:0px 30%;
+}
+
+/*-----------------End of Section1---------------*/
+
+/*------------------ Section 2 -----------------*/
+.section2{
+    width: 98.9;
+    height: auto;
+    margin-top:10px;
+
+}
+.triangle{
+    margin: auto 0; 
+    width: 0;
+    height: 0;
+    border:50px solid transparent;
+    border-left-color:darkblue ;
+    background-color: #E7E7E9;
+}
+.section2 .content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7E7E9;
+}
+
+.section2 .image{
+    padding-top: 100px;
+    padding-left:170px;
+    background-color: darkblue;
+}
+
+.feature1,
+.feature2,
+.feature3{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.feature2 img{
+    background-color: #E7E7E9;
+}
+.feature1 span,
+.feature2 span,
+.feature3 span{
+    font-size:30px;
+    font-weight: bold;
+    padding-left: 10px;
+    color:darkblue
+}
+.feature1 p,
+.feature2 p,
+.feature3 p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+
+/*--------------- End of Section 2 --------------*/
